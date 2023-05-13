@@ -30,4 +30,4 @@ function containsDigitOrDivisibleBy(given_number, digit) {
   const containsDigit = (digit) => { return `${given_number}`.includes(`${digit}`); };
   return divisibleBy(digit) || containsDigit(digit);
 }
-// function hasThisQuality(given_number, digit)
+
