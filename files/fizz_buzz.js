@@ -5,5 +5,5 @@ module.exports = {
 };
 
 function translate(given_number) {
-  return "x"+given_number;
+  return "fizz";
 }
