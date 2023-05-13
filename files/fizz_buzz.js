@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  answer
+  translate
 };
 
 function translate(given_number) {

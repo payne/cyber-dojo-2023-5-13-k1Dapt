@@ -1,5 +1,3 @@
 fizz_buzz.js: line 7, col 20, 'given_number' is defined but never used.
-fizz_buzz.js: line 4, col 3, 'answer' is not defined.
-fizz_buzz.js: line 7, col 10, 'translate' is defined but never used.
 
-3 errors
+1 error
