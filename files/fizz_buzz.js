@@ -18,13 +18,14 @@ function translate(given_number) {
 }
 
 function isFizzy(given_number) {
+  // "33".includes("3")
   const divisibleBy = (divisor) => { return given_number % divisor === 0; };
-  const containsDigit = (digit) => { return `${given_number}`.contains(digit) === 0; };
+  const containsDigit = (digit) => { return `${given_number}`.includes(`${digit}`) === 0; };
   return divisibleBy(3) || containsDigit(3);
 }
 
 function isBuzzy(given_number) {
   const divisibleBy = (divisor) => { return given_number % divisor === 0; };
-  const containsDigit = (digit) => { return `${given_number}`.contains(digit) === 0; };
+  const containsDigit = (digit) => { return `${given_number}`.includes(`${digit}`) === 0; };
   return divisibleBy(5) || containsDigit(5);
 }
