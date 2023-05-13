@@ -9,10 +9,8 @@ Given('we have a FizzBuzz translator', function () {
    fb = new fizz_buzz();
 });
 
-When('we give it {int}', function (int) {
-  // When('we give it {float}', function (float) {
-  // Write code here that turns the phrase above into concrete actions
-  //return 'pending';
+When('we give it {int}', function (given_number) {
+  actual = fb.translate(given_number);
 });
 
 Then('we expect {string}', function (string) {
