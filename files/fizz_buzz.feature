@@ -30,5 +30,5 @@ Feature: Transate a number into it's FizzBuzz response
     | 90    | "FizzBuzz" |  
     Examples: Numbers that yield FizzBuzz because they contain the digits 3 and 5
     | given | result |
-    | 53    | "Buzz" |
+    | 53    | "FizzBuzz" |
     
