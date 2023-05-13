@@ -12,7 +12,7 @@ function translate(given_number) {
   if(given_number % 5 === 0) {
     result += "Buzz";
   }
-  return result !== "" 
-    ? result 
-    : `${given_number}`;
+  return result !== "" ? 
+    result : 
+    `${given_number}`;
 }
