@@ -1,19 +1,5 @@
-........F
+.........
 
-Failures:
-
-1) Scenario: 5 yields Buzz # ../../sandbox/fizz_buzz.feature:14
-   ✔ Given we have a FizzBuzz translator # ../../sandbox/fizz_buzz_steps.js:9
-   ✔ When we give it 5 # ../../sandbox/fizz_buzz_steps.js:13
-   ✖ Then we expect "Buzz" # ../../sandbox/fizz_buzz_steps.js:17
-       AssertionError [ERR_ASSERTION]: '5' == 'Buzz'
-           + expected - actual
-
-           -5
-           +Buzz
-
-           at World.<anonymous> (/sandbox/fizz_buzz_steps.js:18:10)
-
-3 scenarios (1 failed, 2 passed)
-9 steps (1 failed, 8 passed)
-0m00.004s
+3 scenarios (3 passed)
+9 steps (9 passed)
+0m00.002s
