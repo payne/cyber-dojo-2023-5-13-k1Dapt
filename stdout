@@ -1,5 +1,34 @@
-...
+UUU
 
-1 scenario (1 passed)
-3 steps (3 passed)
-0m00.002s
+Warnings:
+
+1) Scenario: 3 yields Fizz # ../../sandbox/fizz_buzz.feature:4
+   ? Given we have a FizzBuzz translator
+       Undefined. Implement with the following snippet:
+
+         Given('we have a FizzBuzz translator', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? When we give it 3
+       Undefined. Implement with the following snippet:
+
+         When('we give it {int}', function (int) {
+         // When('we give it {float}', function (float) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Then we expect "Fizz"
+       Undefined. Implement with the following snippet:
+
+         Then('we expect {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+
+1 scenario (1 undefined)
+3 steps (3 undefined)
+0m00.000s
