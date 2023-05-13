@@ -7,7 +7,7 @@ const fizz_buzz = require('./fizz_buzz');
 let score;
 Given('we have a FizzBuzz translator', function () {
   // Write code here that turns the phrase above into concrete actions
-  return 'pending';
+  //return 'pending';
 });
 
 When('we give it {int}', function (int) {
