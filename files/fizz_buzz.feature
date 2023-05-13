@@ -1,14 +1,18 @@
 Feature: Transate a number into it's FizzBuzz response
 
 
-  Scenario Outline: 3 yields Fizz
+  Scenario Outline: Examples of all use cases
     Given we have a FizzBuzz translator
     When we give it <given>
     Then we expect <result>
-    Examples:
+    Examples: Numbers that yield Fizz
     | given | result |
     | 3     | "Fizz" |
     | 9     | "Fizz" |
+    Examples: Numbers that yield Buzz
+    | given | result |
+    | 5     | "Fizz" |
+    | 10    | "Fizz" |
     
 
   Scenario: 1 yields Fizz
