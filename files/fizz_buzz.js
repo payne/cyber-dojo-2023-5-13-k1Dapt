@@ -4,6 +4,6 @@ module.exports = {
   answer
 };
 
-function answer(a, b) {
-  return a * b;
+function translate(given_number) {
+  return "x";
 }
