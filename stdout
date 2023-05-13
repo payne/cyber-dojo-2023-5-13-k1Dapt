@@ -1,7 +1,7 @@
-fizz_buzz_steps.js: line 13, col 36, 'int' is defined but never used.
-fizz_buzz_steps.js: line 19, col 38, 'string' is defined but never used.
+fizz_buzz_steps.js: line 12, col 36, 'int' is defined but never used.
+fizz_buzz_steps.js: line 18, col 38, 'string' is defined but never used.
+fizz_buzz_steps.js: line 9, col 4, 'fb' is not defined.
 fizz_buzz_steps.js: line 4, col 7, 'assert' is defined but never used.
-fizz_buzz_steps.js: line 5, col 7, 'fizz_buzz' is defined but never used.
 fizz_buzz_steps.js: line 7, col 5, 'score' is defined but never used.
 
 5 errors
