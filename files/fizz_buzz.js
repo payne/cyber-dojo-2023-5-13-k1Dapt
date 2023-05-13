@@ -27,7 +27,11 @@ function isBuzzy(given_number) {
 
 function containsDigitOrDivisibleBy(given_number, digit) {
   const divisibleBy = (digit) => { return given_number % digit === 0; };
-  const containsDigit = (digit) => { return given_number.toString().includes(`${digit}`); };
+  const containsDigit = (digit) => { 
+    return given_number
+    .toString()
+    .includes(`${digit}`); 
+  };
   return divisibleBy(digit) || containsDigit(digit);
 }
 
