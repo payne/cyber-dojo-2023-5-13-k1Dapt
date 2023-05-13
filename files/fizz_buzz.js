@@ -5,14 +5,14 @@ module.exports = {
 };
 
 function translate(given_number) {  
-  if(given_number % 15 === 0) {
-    return "FizzBuzz";
-  }
+  let result = ""
   if(given_number % 3 === 0) {
-    return "Fizz";
+    result += "Fizz";
   }
   if(given_number % 5 === 0) {
-    return "Buzz";
+    result += "Buzz";
   }
-  return `${given_number}`;
+  return result !== "" 
+    ? result 
+    : `${given_number}`;
 }

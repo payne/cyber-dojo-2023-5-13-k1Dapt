@@ -1,5 +1,4 @@
-............
+fizz_buzz.js: line 8, col 18, Missing semicolon.
+fizz_buzz.js: line 16, col 5, Misleading line break before '?'; readers may interpret this as an expression boundary.
 
-4 scenarios (4 passed)
-12 steps (12 passed)
-0m00.003s
+2 errors
