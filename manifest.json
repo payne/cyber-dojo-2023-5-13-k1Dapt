@@ -1,0 +1,22 @@
+{
+  "display_name": "JavaScript, Cucumber",
+  "image_name": "cyberdojofoundation/javascript_node_cucumber:9c303d1",
+  "filename_extension": [
+    ".js",
+    ".feature"
+  ],
+  "max_seconds": 10,
+  "tab_size": 2,
+  "exercise": "Fizz Buzz Plus",
+  "version": 2,
+  "created": [
+    2023,
+    5,
+    13,
+    18,
+    59,
+    43,
+    902171
+  ],
+  "id": "k1Dapt"
+}
