@@ -22,13 +22,13 @@ Feature: Transate a number into it's FizzBuzz response
     | 58    | "Buzz" |
     Examples: Numbers that yield the number
     | given | result |
-    | 1     | "1" |
-    | 98    | "98"|
+    | 1     | "1"    |
+    | 98    | "98"   |
     Examples: Numbers that yield FizzBuzz because they are multiples of 3 and 5
     | given | result |
     | 15    | "FizzBuzz" |
     | 90    | "FizzBuzz" |  
     Examples: Numbers that yield FizzBuzz because they contain the digits 3 and 5
-    | given | result |
+    | given | result     |
     | 53    | "FizzBuzz" |
     
