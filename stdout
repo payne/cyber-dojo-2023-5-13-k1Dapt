@@ -1,3 +1,5 @@
-fizz_buzz.js: line 8, col 30, Expected '{' and instead saw 'return'.
+......
 
-1 error
+2 scenarios (2 passed)
+6 steps (6 passed)
+0m00.003s
