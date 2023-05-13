@@ -10,3 +10,8 @@ Feature: Transate a number into it's FizzBuzz response
     Given we have a FizzBuzz translator
     When we give it 1
     Then we expect "1"
+    
+Scenario: 5 yields Buzz
+    Given we have a FizzBuzz translator
+    When we give it 5
+    Then we expect "Buzz"    
