@@ -29,8 +29,8 @@ function containsDigitOrDivisibleBy(given_number, digit) {
   const divisibleBy = (digit) => { return given_number % digit === 0; };
   const containsDigit = (digit) => { 
     return given_number
-    .toString()
-    .includes(`${digit}`); 
+      .toString()
+      .includes(digit.toString()); 
   };
   return divisibleBy(digit) || containsDigit(digit);
 }
