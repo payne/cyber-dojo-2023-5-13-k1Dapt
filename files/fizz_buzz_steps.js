@@ -4,7 +4,7 @@ const {Given,When,Then} = require('cucumber');
 const assert = require('assert');
 const fizz_buzz = require('./fizz_buzz');
 
-let score;
+let actual;
 Given('we have a FizzBuzz translator', function () {
    fb = new fizz_buzz();
 });

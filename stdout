@@ -1,8 +1,6 @@
 fizz_buzz_steps.js: line 16, col 38, 'string' is defined but never used.
 fizz_buzz_steps.js: line 9, col 4, 'fb' is not defined.
 fizz_buzz_steps.js: line 13, col 12, 'fb' is not defined.
-fizz_buzz_steps.js: line 13, col 3, 'actual' is not defined.
 fizz_buzz_steps.js: line 4, col 7, 'assert' is defined but never used.
-fizz_buzz_steps.js: line 7, col 5, 'score' is defined but never used.
 
-6 errors
+4 errors
