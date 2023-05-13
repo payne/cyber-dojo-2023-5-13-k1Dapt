@@ -34,4 +34,5 @@ Feature: Transate a number into it's FizzBuzz response
     Examples: Numbers that yield FizzBuzz because they are multiples of 3 and contain 5
     | given | result     |
     | 51    | "FizzBuzz" |
+    | 54    | "FizzBuzz" |
     
