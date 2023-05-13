@@ -6,7 +6,7 @@ module.exports = {
 
 function translate(given_number) {  
   let result = "";
-  const divisibleBy = (d) => { return given_number % d === 0; };
+  const divisibleBy = (divisor) => { return given_number % divisor === 0; };
   if(divisibleBy(3)) {
     result += "Fizz";
   }
