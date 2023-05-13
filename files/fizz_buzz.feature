@@ -17,6 +17,10 @@ Feature: Transate a number into it's FizzBuzz response
     | given | result |
     | 7     | "7" |
     | 8     | "8" |
+    Examples: Numbers that yield FizzBuzz
+    | given | result |
+    | 15    | "FizzBuzz" |
+    | 90    | "FizzBuzz" |
     
 
   Scenario: 1 yields Fizz
