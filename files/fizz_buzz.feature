@@ -1,4 +1,4 @@
-Feature: hitch-hiker playing scrabble
+Feature: Transate a number into it's FizzBuzz response
 
   Scenario: hitch-hiker playing scrabble in the past
     Given the hitch-hiker selects some tiles
