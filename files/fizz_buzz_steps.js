@@ -8,11 +8,11 @@ let actual;
 let fb;
 
 Given('we have a FizzBuzz translator', function () {
-   fb = new fizz_buzz();
+   //fb = new fizz_buzz();  
 });
 
 When('we give it {int}', function (given_number) {
-  actual = fb.translate(given_number);
+  actual = fizz_buzz.translate(given_number);
 });
 
 Then('we expect {string}', function (expectedScore) {

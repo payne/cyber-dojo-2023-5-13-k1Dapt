@@ -1,14 +1,3 @@
-F--
+fizz_buzz_steps.js: line 8, col 5, 'fb' is defined but never used.
 
-Failures:
-
-1) Scenario: 3 yields Fizz # ../../sandbox/fizz_buzz.feature:4
-   ✖ Given we have a FizzBuzz translator # ../../sandbox/fizz_buzz_steps.js:10
-       TypeError: fizz_buzz is not a constructor
-           at World.<anonymous> (/sandbox/fizz_buzz_steps.js:11:9)
-   - When we give it 3 # ../../sandbox/fizz_buzz_steps.js:14
-   - Then we expect "Fizz" # ../../sandbox/fizz_buzz_steps.js:18
-
-1 scenario (1 failed)
-3 steps (1 failed, 2 skipped)
-0m00.000s
+1 error
