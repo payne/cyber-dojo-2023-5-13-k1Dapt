@@ -14,7 +14,7 @@ function translate(given_number) {
   }
   return result !== "" ? 
     result : 
-    `${given_number}`;
+  `${given_number}`;
 }
 
 function isFizzy(given_number) {
@@ -27,10 +27,13 @@ function isBuzzy(given_number) {
 
 function containsDigitOrDivisibleBy(given_number, digit) {
   const divisibleBy = (digit) => { return given_number % digit === 0; };
+
   const containsDigit = (digit) => { 
-    return given_number.toString()
-      .includes(digit.toString()); 
+    const givenNumberString = given_number.toString();
+    const digitString = digit.toString().;
+    return givenNumberString.includes(digitString); 
   };
+  
   return divisibleBy(digit) || containsDigit(digit);
 }
 
