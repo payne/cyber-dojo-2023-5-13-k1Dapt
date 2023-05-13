@@ -16,6 +16,10 @@ Feature: Transate a number into it's FizzBuzz response
     | given | result |
     | 10    | "Buzz" |
     | 100   | "Buzz" |
+    Examples: Numbers that yield Buzz because they contain the digit 5
+    | given | result |
+    | 52    | "Buzz" |
+    | 53    | "Buzz" |
     Examples: Numbers that yield the number
     | given | result |
     | 1     | "1" |
