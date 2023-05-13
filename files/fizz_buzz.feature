@@ -11,8 +11,8 @@ Feature: Transate a number into it's FizzBuzz response
     | 9     | "Fizz" |
     Examples: Numbers that yield Buzz
     | given | result |
-    | 5     | "Fizz" |
-    | 10    | "Fizz" |
+    | 5     | "Buzz" |
+    | 10    | "Buzz" |
     
 
   Scenario: 1 yields Fizz
