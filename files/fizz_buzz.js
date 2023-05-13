@@ -4,7 +4,10 @@ module.exports = {
   translate
 };
 
-function translate(given_number) {
+function translate(given_number) {  
+  if(given_number % 15 === 0) {
+    return "FizzBuz";
+  }
   if(given_number % 3 === 0) {
     return "Fizz";
   }

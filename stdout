@@ -6,14 +6,14 @@ Failures:
    ✔ Given we have a FizzBuzz translator # ../../sandbox/fizz_buzz_steps.js:9
    ✔ When we give it 15 # ../../sandbox/fizz_buzz_steps.js:13
    ✖ Then we expect "FizzBuzz" # ../../sandbox/fizz_buzz_steps.js:17
-       AssertionError [ERR_ASSERTION]: 'Fizz' == 'FizzBuzz'
+       AssertionError [ERR_ASSERTION]: 'FizzBuz' == 'FizzBuzz'
            + expected - actual
 
-           -Fizz
+           -FizzBuz
            +FizzBuzz
 
            at World.<anonymous> (/sandbox/fizz_buzz_steps.js:18:10)
 
 4 scenarios (1 failed, 3 passed)
 12 steps (1 failed, 11 passed)
-0m00.001s
+0m00.005s
