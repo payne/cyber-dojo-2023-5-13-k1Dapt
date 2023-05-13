@@ -5,5 +5,6 @@ module.exports = {
 };
 
 function translate(given_number) {
+  given_number++;
   return "fizz";
 }

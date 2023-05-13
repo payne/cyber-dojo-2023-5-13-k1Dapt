@@ -1,3 +1,19 @@
-fizz_buzz.js: line 7, col 20, 'given_number' is defined but never used.
+..F
 
-1 error
+Failures:
+
+1) Scenario: 3 yields Fizz # ../../sandbox/fizz_buzz.feature:4
+   ✔ Given we have a FizzBuzz translator # ../../sandbox/fizz_buzz_steps.js:9
+   ✔ When we give it 3 # ../../sandbox/fizz_buzz_steps.js:13
+   ✖ Then we expect "Fizz" # ../../sandbox/fizz_buzz_steps.js:17
+       AssertionError [ERR_ASSERTION]: 'fizz' == 'Fizz'
+           + expected - actual
+
+           -fizz
+           +Fizz
+
+           at World.<anonymous> (/sandbox/fizz_buzz_steps.js:18:10)
+
+1 scenario (1 failed)
+3 steps (1 failed, 2 passed)
+0m00.003s
