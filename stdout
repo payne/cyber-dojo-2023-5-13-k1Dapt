@@ -1,4 +1,3 @@
-fizz_buzz.js: line 8, col 18, Missing semicolon.
 fizz_buzz.js: line 16, col 5, Misleading line break before '?'; readers may interpret this as an expression boundary.
 
-2 errors
+1 error

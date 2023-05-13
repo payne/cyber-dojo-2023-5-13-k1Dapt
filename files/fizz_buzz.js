@@ -5,7 +5,7 @@ module.exports = {
 };
 
 function translate(given_number) {  
-  let result = ""
+  let result = "";
   if(given_number % 3 === 0) {
     result += "Fizz";
   }
