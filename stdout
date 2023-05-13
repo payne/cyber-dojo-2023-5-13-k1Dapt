@@ -1,19 +1,5 @@
-..F
+...
 
-Failures:
-
-1) Scenario: hitch-hiker playing scrabble in the past # ../../sandbox/hiker.feature:3
-   ✔ Given the hitch-hiker selects some tiles # ../../sandbox/hiker_steps.js:9
-   ✔ When they spell 6 times 9 # ../../sandbox/hiker_steps.js:12
-   ✖ Then the score is 42 # ../../sandbox/hiker_steps.js:16
-       AssertionError [ERR_ASSERTION]: 54 == 42
-           + expected - actual
-
-           -54
-           +42
-
-           at World.<anonymous> (/sandbox/hiker_steps.js:17:10)
-
-1 scenario (1 failed)
-3 steps (1 failed, 2 passed)
-0m00.012s
+1 scenario (1 passed)
+3 steps (3 passed)
+0m00.000s
