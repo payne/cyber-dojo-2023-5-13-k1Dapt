@@ -1,5 +1,0 @@
-Error: Parse error in '../../sandbox/fizz_buzz.feature': (9:3): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Rule: If not a multiple of 3 or 5 then yield the number'
-    at /home/sandbox/node_modules/cucumber/lib/cli/helpers.js:110:13
-    at Array.forEach (<anonymous>)
-    at getTestCases (/home/sandbox/node_modules/cucumber/lib/cli/helpers.js:81:10)
-    at /home/sandbox/node_modules/cucumber/lib/cli/helpers.js:58:35
