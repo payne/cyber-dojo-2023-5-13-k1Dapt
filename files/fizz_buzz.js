@@ -18,13 +18,16 @@ function translate(given_number) {
 }
 
 function isFizzy(given_number) {
-  const divisibleBy = (divisor) => { return given_number % divisor === 0; };
-  const containsDigit = (digit) => { return `${given_number}`.includes(`${digit}`); };
-  return divisibleBy(3) || containsDigit(3);
+  return containsDigitOrDivisibleBy(given_number, 3);
 }
 
 function isBuzzy(given_number) {
-  const divisibleBy = (divisor) => { return given_number % divisor === 0; };
-  const containsDigit = (digit) => { return `${given_number}`.includes(`${digit}`); };
-  return divisibleBy(5) || containsDigit(5);
+  return containsDigitOrDivisibleBy(given_number, 5);
 }
+
+function containsDigitOrDivisibleBy(given_number, digit) {
+  const divisibleBy = (digit) => { return given_number % digit === 0; };
+  const containsDigit = (digit) => { return `${given_number}`.includes(`${digit}`); };
+  return divisibleBy(digit) || containsDigit(digit);
+}
+// function hasThisQuality(given_number, digit)
