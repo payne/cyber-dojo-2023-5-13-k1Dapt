@@ -1,9 +1,3 @@
-fizz_buzz.js: line 9, col 24, Expected '(' and instead saw '='.
-fizz_buzz.js: line 9, col 26, Expected an identifier and instead saw '('.
-fizz_buzz.js: line 9, col 28, 'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option).
-fizz_buzz.js: line 9, col 30, Expected an identifier and instead saw '=>'.
-fizz_buzz.js: line 9, col 64, Missing semicolon.
-fizz_buzz.js: line 9, col 66, Unnecessary semicolon.
-fizz_buzz.js: line 9, col 57, 'd' is not defined.
+fizz_buzz.js: line 9, col 61, Missing semicolon.
 
-7 errors
+1 error
