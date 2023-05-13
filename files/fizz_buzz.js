@@ -9,7 +9,7 @@ function translate(given_number) {
   if(isFizzy(given_number)) {
     result += "Fizz";
   }
-  if(divisibleBy(5)) {
+  if(isBuzzy(given_number)) {
     result += "Buzz";
   }
   return result !== "" ? 
@@ -21,4 +21,10 @@ function isFizzy(given_number) {
   const divisibleBy = (divisor) => { return given_number % divisor === 0; };
   const containsDigit = (digit) => { return `${given_number}`.contains(digit) === 0; };
   return divisibleBy(3) || containsDigit(3);
+}
+
+function isBuzzy(given_number) {
+  const divisibleBy = (divisor) => { return given_number % divisor === 0; };
+  const containsDigit = (digit) => { return `${given_number}`.contains(digit) === 0; };
+  return divisibleBy(5) || containsDigit(5);
 }

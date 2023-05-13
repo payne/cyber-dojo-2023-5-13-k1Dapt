@@ -1,3 +1,87 @@
-fizz_buzz.js: line 12, col 6, 'divisibleBy' is not defined.
+.F-.F-.F-.F-.F-.F-.F-.F-......
 
-1 error
+Failures:
+
+1) Scenario: Examples of all use cases # ../../sandbox/fizz_buzz.feature:9
+   ✔ Given we have a FizzBuzz translator # ../../sandbox/fizz_buzz_steps.js:9
+   ✖ When we give it 6 # ../../sandbox/fizz_buzz_steps.js:13
+       TypeError: given_number.contains is not a function
+           at containsDigit (/sandbox/fizz_buzz.js:28:63)
+           at isBuzzy (/sandbox/fizz_buzz.js:29:28)
+           at Object.translate (/sandbox/fizz_buzz.js:12:6)
+           at World.<anonymous> (/sandbox/fizz_buzz_steps.js:14:22)
+   - Then we expect "Fizz" # ../../sandbox/fizz_buzz_steps.js:17
+
+2) Scenario: Examples of all use cases # ../../sandbox/fizz_buzz.feature:10
+   ✔ Given we have a FizzBuzz translator # ../../sandbox/fizz_buzz_steps.js:9
+   ✖ When we give it 99 # ../../sandbox/fizz_buzz_steps.js:13
+       TypeError: given_number.contains is not a function
+           at containsDigit (/sandbox/fizz_buzz.js:28:63)
+           at isBuzzy (/sandbox/fizz_buzz.js:29:28)
+           at Object.translate (/sandbox/fizz_buzz.js:12:6)
+           at World.<anonymous> (/sandbox/fizz_buzz_steps.js:14:22)
+   - Then we expect "Fizz" # ../../sandbox/fizz_buzz_steps.js:17
+
+3) Scenario: Examples of all use cases # ../../sandbox/fizz_buzz.feature:13
+   ✔ Given we have a FizzBuzz translator # ../../sandbox/fizz_buzz_steps.js:9
+   ✖ When we give it 13 # ../../sandbox/fizz_buzz_steps.js:13
+       TypeError: given_number.contains is not a function
+           at containsDigit (/sandbox/fizz_buzz.js:22:63)
+           at isFizzy (/sandbox/fizz_buzz.js:23:28)
+           at Object.translate (/sandbox/fizz_buzz.js:9:6)
+           at World.<anonymous> (/sandbox/fizz_buzz_steps.js:14:22)
+   - Then we expect "Fizz" # ../../sandbox/fizz_buzz_steps.js:17
+
+4) Scenario: Examples of all use cases # ../../sandbox/fizz_buzz.feature:14
+   ✔ Given we have a FizzBuzz translator # ../../sandbox/fizz_buzz_steps.js:9
+   ✖ When we give it 83 # ../../sandbox/fizz_buzz_steps.js:13
+       TypeError: given_number.contains is not a function
+           at containsDigit (/sandbox/fizz_buzz.js:22:63)
+           at isFizzy (/sandbox/fizz_buzz.js:23:28)
+           at Object.translate (/sandbox/fizz_buzz.js:9:6)
+           at World.<anonymous> (/sandbox/fizz_buzz_steps.js:14:22)
+   - Then we expect "Fizz" # ../../sandbox/fizz_buzz_steps.js:17
+
+5) Scenario: Examples of all use cases # ../../sandbox/fizz_buzz.feature:17
+   ✔ Given we have a FizzBuzz translator # ../../sandbox/fizz_buzz_steps.js:9
+   ✖ When we give it 10 # ../../sandbox/fizz_buzz_steps.js:13
+       TypeError: given_number.contains is not a function
+           at containsDigit (/sandbox/fizz_buzz.js:22:63)
+           at isFizzy (/sandbox/fizz_buzz.js:23:28)
+           at Object.translate (/sandbox/fizz_buzz.js:9:6)
+           at World.<anonymous> (/sandbox/fizz_buzz_steps.js:14:22)
+   - Then we expect "Buzz" # ../../sandbox/fizz_buzz_steps.js:17
+
+6) Scenario: Examples of all use cases # ../../sandbox/fizz_buzz.feature:18
+   ✔ Given we have a FizzBuzz translator # ../../sandbox/fizz_buzz_steps.js:9
+   ✖ When we give it 100 # ../../sandbox/fizz_buzz_steps.js:13
+       TypeError: given_number.contains is not a function
+           at containsDigit (/sandbox/fizz_buzz.js:22:63)
+           at isFizzy (/sandbox/fizz_buzz.js:23:28)
+           at Object.translate (/sandbox/fizz_buzz.js:9:6)
+           at World.<anonymous> (/sandbox/fizz_buzz_steps.js:14:22)
+   - Then we expect "Buzz" # ../../sandbox/fizz_buzz_steps.js:17
+
+7) Scenario: Examples of all use cases # ../../sandbox/fizz_buzz.feature:21
+   ✔ Given we have a FizzBuzz translator # ../../sandbox/fizz_buzz_steps.js:9
+   ✖ When we give it 1 # ../../sandbox/fizz_buzz_steps.js:13
+       TypeError: given_number.contains is not a function
+           at containsDigit (/sandbox/fizz_buzz.js:22:63)
+           at isFizzy (/sandbox/fizz_buzz.js:23:28)
+           at Object.translate (/sandbox/fizz_buzz.js:9:6)
+           at World.<anonymous> (/sandbox/fizz_buzz_steps.js:14:22)
+   - Then we expect "1" # ../../sandbox/fizz_buzz_steps.js:17
+
+8) Scenario: Examples of all use cases # ../../sandbox/fizz_buzz.feature:22
+   ✔ Given we have a FizzBuzz translator # ../../sandbox/fizz_buzz_steps.js:9
+   ✖ When we give it 98 # ../../sandbox/fizz_buzz_steps.js:13
+       TypeError: given_number.contains is not a function
+           at containsDigit (/sandbox/fizz_buzz.js:22:63)
+           at isFizzy (/sandbox/fizz_buzz.js:23:28)
+           at Object.translate (/sandbox/fizz_buzz.js:9:6)
+           at World.<anonymous> (/sandbox/fizz_buzz_steps.js:14:22)
+   - Then we expect "98" # ../../sandbox/fizz_buzz_steps.js:17
+
+10 scenarios (8 failed, 2 passed)
+30 steps (8 failed, 8 skipped, 14 passed)
+0m00.004s
