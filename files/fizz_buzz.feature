@@ -1,15 +1,15 @@
 Feature: Transate a number into it's FizzBuzz response
 
 
-  Scenario: 3 yields Fizz
+  Scenario Outline: 3 yields Fizz
     Given we have a FizzBuzz translator
-    When we give it 3
-    Then we expect "Fizz"
+    When we give it <given>
+    Then we expect <result>
+    Examples:
+    | given | result |
+    | 3     | "Fizz" |
+    | 9     | "Fizz" |
     
-  Scenario: 9 yields Fizz
-    Given we have a FizzBuzz translator
-    When we give it 9
-    Then we expect "Fizz"
 
   Scenario: 1 yields Fizz
     Given we have a FizzBuzz translator
