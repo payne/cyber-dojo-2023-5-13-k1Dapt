@@ -5,9 +5,8 @@ module.exports = {
 };
 
 function translate(given_number) {  
-  let result = "";
-  const divisibleBy = (divisor) => { return given_number % divisor === 0; };
-  if(divisibleBy(3)) {
+  let result = "";  
+  if(isFizzy(given_number)) {
     result += "Fizz";
   }
   if(divisibleBy(5)) {
@@ -16,4 +15,10 @@ function translate(given_number) {
   return result !== "" ? 
     result : 
     `${given_number}`;
+}
+
+function isFizzy(given_number) {
+  const divisibleBy = (divisor) => { return given_number % divisor === 0; };
+  const containsDigit = (digit) => { return `${given_number}`.contains(digit) === 0; };
+  return divisibleBy(3) || containsDigit(3);
 }
