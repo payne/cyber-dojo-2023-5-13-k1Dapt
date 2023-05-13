@@ -5,6 +5,8 @@ const assert = require('assert');
 const fizz_buzz = require('./fizz_buzz');
 
 let actual;
+let fb;
+
 Given('we have a FizzBuzz translator', function () {
    fb = new fizz_buzz();
 });
