@@ -30,7 +30,7 @@ function containsDigitOrDivisibleBy(given_number, digit) {
 
   const containsDigit = (digit) => { 
     const givenNumberString = given_number.toString();
-    const digitString = digit.toString().;
+    const digitString = digit.toString();
     return givenNumberString.includes(digitString); 
   };
   
