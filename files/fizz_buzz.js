@@ -10,7 +10,7 @@ function translate(given_number) {
   if(divisibleBy(3)) {
     result += "Fizz";
   }
-  if(given_number % 5 === 0) {
+  if(divisibleBy(5)) {
     result += "Buzz";
   }
   return result !== "" ? 
