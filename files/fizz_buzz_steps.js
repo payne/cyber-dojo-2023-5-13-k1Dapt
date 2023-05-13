@@ -13,12 +13,12 @@ Given('we have a FizzBuzz translator', function () {
 When('we give it {int}', function (int) {
   // When('we give it {float}', function (float) {
   // Write code here that turns the phrase above into concrete actions
-  return 'pending';
+  //return 'pending';
 });
 
 Then('we expect {string}', function (string) {
   // Write code here that turns the phrase above into concrete actions
-  return 'pending';
+  //return 'pending';
 });
 
 //Given(/^the hitch-hiker selects some tiles$/, function() {
