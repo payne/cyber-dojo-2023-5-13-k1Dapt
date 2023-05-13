@@ -7,8 +7,8 @@ Feature: Transate a number into it's FizzBuzz response
     Then we expect <result>
     Examples: Numbers that yield Fizz
     | given | result |
-    | 3     | "Fizz" |
-    | 9     | "Fizz" |
+    | 6     | "Fizz" |
+    | 99    | "Fizz" |
     Examples: Numbers that yield Buzz
     | given | result |
     | 5     | "Buzz" |
