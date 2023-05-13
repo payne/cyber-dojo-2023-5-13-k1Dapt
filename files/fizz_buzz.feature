@@ -19,7 +19,7 @@ Feature: Transate a number into it's FizzBuzz response
     Examples: Numbers that yield Buzz because they contain the digit 5
     | given | result |
     | 52    | "Buzz" |
-    #|todo
+    | 58    | "Buzz" |
     Examples: Numbers that yield the number
     | given | result |
     | 1     | "1" |
