@@ -15,7 +15,7 @@ When('we give it {int}', function (given_number) {
   actual = fb.translate(given_number);
 });
 
-Then('we expect {string}', function (string) {
+Then('we expect {string}', function (expectedScore) {
   assert.equal(actual, expectedScore);
 });
 
