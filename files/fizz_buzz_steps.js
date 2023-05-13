@@ -2,7 +2,7 @@
 
 const {Given,When,Then} = require('cucumber');
 const assert = require('assert');
-const hiker = require('./hiker');
+const fizz_buzz = require('./fizz_buzz');
 
 let score;
 
@@ -10,7 +10,7 @@ Given(/^the hitch-hiker selects some tiles$/, function() {
 });
 
 When(/^they spell (\d+) times (\d+)$/, function(a, b) {
-  score = hiker.answer(parseInt(a), parseInt(b));
+  score = fizz_buzz.answer(parseInt(a), parseInt(b));
 });
 
 Then(/^the score is (\d+)$/, function(expectedScore) {
