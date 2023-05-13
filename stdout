@@ -1,4 +1,4 @@
 fizz_buzz_steps.js: line 18, col 38, 'string' is defined but never used.
-fizz_buzz_steps.js: line 4, col 7, 'assert' is defined but never used.
+fizz_buzz_steps.js: line 19, col 24, 'expectedScore' is not defined.
 
 2 errors

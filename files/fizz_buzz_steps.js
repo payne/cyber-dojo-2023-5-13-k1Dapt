@@ -16,8 +16,7 @@ When('we give it {int}', function (given_number) {
 });
 
 Then('we expect {string}', function (string) {
-  // Write code here that turns the phrase above into concrete actions
-  //return 'pending';
+  assert.equal(actual, expectedScore);
 });
 
 //Given(/^the hitch-hiker selects some tiles$/, function() {
