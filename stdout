@@ -1,31 +1,5 @@
-........F..F..................
+..............................
 
-Failures:
-
-1) Scenario: Examples of all use cases # ../../sandbox/fizz_buzz.feature:13
-   ✔ Given we have a FizzBuzz translator # ../../sandbox/fizz_buzz_steps.js:9
-   ✔ When we give it 13 # ../../sandbox/fizz_buzz_steps.js:13
-   ✖ Then we expect "Fizz" # ../../sandbox/fizz_buzz_steps.js:17
-       AssertionError [ERR_ASSERTION]: '13' == 'Fizz'
-           + expected - actual
-
-           -13
-           +Fizz
-
-           at World.<anonymous> (/sandbox/fizz_buzz_steps.js:18:10)
-
-2) Scenario: Examples of all use cases # ../../sandbox/fizz_buzz.feature:14
-   ✔ Given we have a FizzBuzz translator # ../../sandbox/fizz_buzz_steps.js:9
-   ✔ When we give it 83 # ../../sandbox/fizz_buzz_steps.js:13
-   ✖ Then we expect "Fizz" # ../../sandbox/fizz_buzz_steps.js:17
-       AssertionError [ERR_ASSERTION]: '83' == 'Fizz'
-           + expected - actual
-
-           -83
-           +Fizz
-
-           at World.<anonymous> (/sandbox/fizz_buzz_steps.js:18:10)
-
-10 scenarios (2 failed, 8 passed)
-30 steps (2 failed, 28 passed)
-0m00.004s
+10 scenarios (10 passed)
+30 steps (30 passed)
+0m00.003s
