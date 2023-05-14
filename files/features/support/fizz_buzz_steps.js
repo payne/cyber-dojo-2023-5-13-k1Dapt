@@ -1,8 +1,8 @@
 'use strict';
 
-const {Given,When,Then} = require('cucumber');
+const {Given,When,Then} = require('@cucumber/cucumber');
 const assert = require('assert');
-const fizz_buzz = require('./fizz_buzz');
+const fizz_buzz = require('../../src/fizz_buzz');
 
 let actual;
 
